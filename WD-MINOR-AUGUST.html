@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WD-MINOR-AUGUST</title>
+    <style>
+        body{
+            display: grid;    
+        }  
+        .link {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: inline-block;
+        position: relative;
+        color: hsl(0, 0%, 0%);
+        font-weight: bold;
+        text-decoration: none;
+        }
+
+        .link::after {
+            content: "...Welcome...";
+            position: absolute;
+            width: 100%;
+            height: 6px;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(to left,green,white,orange);
+            transform-origin: bottom right;
+            transition: transform 0.7s ease-out;
+            transform: scaleX(0);
+        }
+
+
+        .link:hover::after {
+            transform: scaleX(1);
+            color: rgb(48, 48, 255);
+            transform-origin: bottom ;
+        }
+ 
+        .header {
+            top: -20px;
+            position: fixed;
+            left: 0%;
+            width: 100%;
+            background-image: linear-gradient(120deg,#FFEA61,#ffffff,#FFEA61,#ffffff,#FFEA61);
+            height: 70px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            padding: 20px;
+            border-radius: 50px;
+            margin-top: 20px;
+            z-index: 2;
+            text-shadow: 0.5px 0.5px 1px #000000;
+
+        }
+        .footer {
+            bottom: 0px;
+            position: fixed;
+            left: 0%;
+            width: 100% ;
+            background-image: linear-gradient(120deg,#FFEA61,#ffffff,#FFEA61,#ffffff,#FFEA61);  
+            height: 60px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            border-radius:50px;
+            margin-bottom: 0px;
+            padding: 05px;
+            text-shadow: 0.5px 0.5px 1px #000000;
+
+        }
+        body{
+            background-image: linear-gradient(120deg,#DAD2F3,#FBA8A4,#DAD2F3,#FBA8A4 );
+            background-attachment:fixed;
+            background-size: 100% 100%;
+            
+        }
+        .img2{
+            height: 260px;
+            width:  320px;
+            left: 20px;
+            background-image: linear-gradient(120deg,#F1A7F1,#FAD0C4);
+            padding: 8px;
+            border-radius: 90px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            margin-right: 20px;
+            cursor:pointer;
+        }
+
+        .name{
+            align-items: center;
+            color: rgb(245, 242, 242);
+            left: 0%;
+            background-image: linear-gradient(120deg,#77a1d3,#79cbca,#e684ae);
+            border-radius: 60px;
+            width:150px;
+            padding: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;          
+        }
+        
+        #anthem{
+            color: #000000;
+            background-image: linear-gradient(120deg,#FD9346,white,white,#88FF99);
+            border-radius: 30px;
+            width:300px;
+            padding: 10px;
+            margin-top: 70px;   
+            align-self: center;
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <div class="container-fluid" align="center">
+        <div class="header" style="font-size: 28px;">
+            <header>
+                <a class="link" href="https://traveltriangle.com/blog/famous-historical-places-in-india/">Historical Places In INDIA</a>    
+            </header>
+        </div><br>
+        <br><br><br>
+
+    <div class="row text-center ">
+        <div class="col-sm-4">
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+                 <img src="https://images.unsplash.com/photo-1587135941948-670b381f08ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIw
+                 bWFoYWx8ZW58MHx8MHx8&w=1000&q=80" class="img2"></a><br><br>
+            <a href="https://images.unsplash.com/photo-1587135941948-670b381f08ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYW
+            x8ZW58MHx8MHx8&w=1000&q=80" class="name">Taj Mahal</a>
+        </div>
+    
+        <div class="col-sm-4  ">
+            <a href="https://en.wikipedia.org/wiki/India_Gate">
+                <img src="https://wallpaperaccess.com/full/4455652.jpg" class="img2"></a><br><br>
+            <a href="https://wallpaperaccess.com/full/4455652.jpg" class="name">India Gate</a>  
+        </div>
+
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Mysore_Palace">
+                <img src="https://www.culturalindia.net/iliimages/Mysore-Palace-ili-41-img-1.jpg" class="img2"></a><br><br>
+            <a href="https://www.culturalindia.net/iliimages/Mysore-Palace-ili-41-img-1.jpg" class="name">Mysore Palace</a> 
+        </div>
+
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">
+                <img src="https://cdn.dnaindia.com/sites/default/files/styles/half/public/2021/08/05/989093-hawa-mahal-windy.jpg"class="img2"></a>
+                  <br><br>                    
+            <a href="https://cdn.dnaindia.com/sites/default/files/styles/half/public/2021/08/05/9890
+            93-hawa-mahal-windy.jpg" class="name">Hawa Mahal</a>
+         </div>
+            
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata">
+                <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-
+                picture-id466240080?k=20&m=466240080&s=612x612&w=0&h=NpSj_Oyv6G2l0RlZbs5NXcaguiNqa8J-KLrLcdFIJS0=" class="img2"></a><br><br>
+             <a href="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?k=20&m=466240080&s=612
+             x612&w=0&h=NpSj_Oyv6G2l0RlZbs5NXcaguiNqa8J-KLrLcdFIJS0=" class="name">Victoria Memorial</a>  
+        </div>
+
+        <div class="col-sm-4">
+            <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg/413px-Fatehput_Si
+                kiri_Buland_Darwaza_gate_2010.jpg"class="img2"></a><br><br>                  
+           <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg/413px-Fatehput_Sikiri_B
+           uland_Darwaza_gate_2010.jpg" class="name">Fatehpur Sikri</a>
+        </div>   
+        
+        <div class="col-sm-4">
+            <a href="https://en.wikipedia.org/wiki/Lotus_Temple">
+                <img src="https://i.ytimg.com/vi/RV4jW1C4W0E/maxresdefault.jpg"class="img2"></a> <br><br>                       
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqqAjlRSC9RJmT00y-pizIG3WYjC5kbrdaA&usqp=CAU" 
+            class="name">Lotus Temple</a>
+         </div>
+
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments">
+                <img src="https://youimg1.tripcdn.com/target/0101s120009bckmtrF1CB_C_800_10000.jpg"class="img2"></a><br><br>
+            <a href="https://youimg1.tripcdn.com/target/0101s120009bckmtrF1CB_C_800_10000.jpg" class="name">Khajuraho Temple</a>
+        </div>
+
+        <div class="col-sm-4">
+            <a href="https://en.wikipedia.org/wiki/Group_of_Monuments_at_Mahabalipuram">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/08/mahabalipuram-400x229.jpg"class="img2">
+            </a><br><br>
+            <a href="https://img.traveltriangle.com/blog/wp-content/uploads/2017/08/mahabalipuram-400x229.jpg" class="name">Mahabalipuram</a>
+        </div>
+
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Red_Fort">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Agra-Fort-Uttar-Pradesh-400x267.jpg"
+                class="img2"></a><br><br>
+            <a href="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Agra-Fort-Uttar-Pradesh-400x267.jpg" 
+            class="name">Red Fort</a>  
+        </div>
+
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Golden_Temple">
+                <img src="https://media.istockphoto.com/photos/golden-temple-the-main-sanctuary-of-sikhs-amritsar-
+                india-picture-id543179390?b=1&k=20&m=543179390&s=612x612&w=0&h=ZJlmRD7l6p__8QqoyjfB3AX5mlst3wbMarLzUDa-A6s="class="img2"></a><br><br>
+            <a href="https://media.istockphoto.com/photos/golden-temple-the-main-sanctuary-of-sikhs-amritsar-india-picture-id543179390?
+            b=1&k=20&m=543179390&s=612x612&w=0&h=ZJlmRD7l6p__8QqoyjfB3AX5mlst3wbMarLzUDa-A6s=" class="name">Golden Temple</a>
+        </div>
+            
+        <div class="col-sm-4 ">
+            <a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Humayun%E2%80%99s-Tomb-Delhi-400x267.jpg"
+                class="img2"></a><br><br>
+            <a href="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Humayun%E2%80%99s-Tomb-Delhi-400x267.jpg" 
+            class="name">Humayun Tomb</a>  
+        </div>
+
+        <div class="col-sm-12  " align="center">
+            <h2 id="anthem">National Anthem</h2>
+                <audio controls>
+                    <source
+                        src="https://top10ringtone.com/wp-content/uploads/2021/01/jan-gan-man-song-mp3-52-seconds-download-Original.mp3">
+                </audio>
+        </div>
+        </div>
+        
+        <br><br><br><br>
+        <div class="footer" style="font-size: 20px;">
+            <footer>
+                <a class="link" href="https://traveltriangle.com/blog/famous-historical-places-in-india/">Designed and Developed by (Vinoth)</a>
+            </footer>
+        </div>        
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc
+    /r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH
+    2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
